@@ -6,7 +6,10 @@
     "license": "UNLICENSED",
     "scripts": {
         "build": "nest build",
-        "serve": "node dist/main"
+        "serve": "node dist/main",
+        "test": "jest --passWithNoTests",
+        "test:watch": "jest --watch",
+        "test:cov": "jest --coverage"
     },
     "dependencies": {
         "@nestjs/apollo": "10.1.3",
